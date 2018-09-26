@@ -1,0 +1,45 @@
+
+body {
+    margin-left: 150px;
+    margin-right:150px;
+}
+
+h1 {
+
+    display: block;
+    border-width:1px;
+    padding:2%;
+
+}
+
+.name {
+        margin-left:60px;
+        
+        width: 20%;
+        background-color: #4aaaa5;
+        color:#ffffff;
+        font-family: "Georgia", Times, Times New Roman, serif;
+        font-weight: 100
+    
+    
+}
+
+.about {
+    border-bottom:solid red; 
+}
+
+div {
+    padding: 6%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+    float:left;
+    padding-right: 20px
+}
+
+
+p {
+    text-align: inherit;
+    padding-left: 10px;
+}
