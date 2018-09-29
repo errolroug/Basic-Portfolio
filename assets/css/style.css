@@ -73,18 +73,26 @@ ul {
     
 }
 
+.contact{
+    height: 500px;
+
+
+}
+
 .form{
 
     color: #44444483;
     display: block;
-    height: 200px
+    height: 200px;
+    text-align: inherit
 }
 
 input{
     box-sizing: content-box;
     width: 100%;
     line-height: 20px;
-    color:#dddddd8c
+    color:#dddddd8c;
+    background-color: #ffffff;
 }
 
 #message{
