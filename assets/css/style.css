@@ -1,9 +1,8 @@
-
+/*body styling for all pages*/
 body { 
     margin-left: 150px;
     margin-right:150px;
-    background-color: #dddddd8c;
-    width: 960px;
+    max-width: 960px;
     font-size: 18px;
     background-image: url("../images/bananas/bananas.png") 
 }
@@ -12,11 +11,7 @@ header {
     background-color: #ffffff;
 }
 
-.submitb {
-    width:20%;
-    color:#dddddd;
-    background-color: #4aaaa5;
-}
+
 
 
 
@@ -55,7 +50,7 @@ ul {
         size: 50px;
         padding-right: 20px
 }
-
+/*page 2 styling*/
 .contact{
     height: 500px;
 }
@@ -80,12 +75,17 @@ input {
     width: 100%;   
 }
 
+.submitb {
+    width:20%;
+    color:#dddddd;
+    background-color: #4aaaa5;
+}
+
 div {
     padding: 2%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #ffffff;
     margin-top: 20px;
-    position: relative;
     height: 550px;      
 }
 
@@ -117,26 +117,105 @@ p {
     line-height: 40px;
 }
 
+
+/*foooter styling*/
 footer{
     text-align: center;
     size: 15px;
     margin-top: 20px
 }
+
 /* Photo stylinh*/
 
-.kick { 
-    width: 45%;
+.photos{
+    background-color: #ffffff;
+    height:500px;
+    padding:0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
-}
+    
+    
 
-.city{
-     width:45%;
-     height:30%;
 }
+    
 
-.sushi{
-    width:35%;
-    height:30%;
-    padding-top:8%;
-    float: left;
+.container {
+    position:relative;
+    padding: 0%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height:2%;
+
+    
+    
+
+}
+                .kickball{
+                          position: absolute;
+                          left:1px;
+                          top:1px;
+                          background-color: #4aaaa5;
+                          color:white;
+                          font-size: 12px;
+                          
+                          background:content-box
+     }
+
+                .city{
+                    position: absolute;
+                          left:1px;
+                          top:1px;
+                          background-color: #4aaaa5;
+                          color:white;
+                          font-size: 12px;
+                          line-height:.05px;
+                          background:content-box
+     }
+                          
+
+                
+
+                .sushi{
+                    position: absolute;
+                          left:1px;
+                          
+                          background-color: #4aaaa5;
+                          color:white;
+                          font-size: 12px;
+                          line-height:.05px;
+                          background:content-box
+     }
+
+                
+
+                .dog{
+                    position: absolute;
+                          left:1px;
+                          top:1px;
+                          background-color: #4aaaa5;
+                          color:white;
+                          font-size: 12px;
+                          line-height:.05px;
+                          background:content-box
+     }
+
+                
+
+                .food{
+                    position: absolute;
+                          left:1px;
+                          top:1px;
+                          background-color: #4aaaa5;
+                          color:white;
+                          font-size: 12px;
+                          line-height:.05px;
+                          background:content-box
+     }
+
+                
+.last{
+    width: 80px;
+    height:70px;
+    clear:both;
+    
+
 }
