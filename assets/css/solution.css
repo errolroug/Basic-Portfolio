@@ -178,6 +178,10 @@ img {
   border-bottom: 0;
 }
 
+.work h3:hover{
+  background:black
+}
+
 .auth-image {
   float: left;
   width: 200px;
